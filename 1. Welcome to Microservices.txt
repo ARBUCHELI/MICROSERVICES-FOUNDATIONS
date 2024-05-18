@@ -113,6 +113,35 @@ The best part of SOAP - WDSL
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Microservices: The new kid on the block
+-----------------------------------------
+Many of the ideas come from SOA.
+
+. Decomposition
+---------------
+Breaking a software problem into smaller pieces that are easier to understand and solve.
+
+. System Decomposition
+----------------------
+Breaking a system into smaller units that make it easier to solve a series of system problems.
+
+			MICROSERVICES EMBRACES THE CONCEPT OF PROTOCOL-AWARE, HETEROGENEUS INTEROPERABILITY TO HANDLE ALL COMMUNICATIONS
+
+			ALL COMMUNICATION OVER REST
+
+			POLYGLOT DEVELOPMENT SUPPORT
+
+			MICROSERVICES ARE JUST AS MUCH ABOUT THE COMMUNICATION AS THE SERVICES THEMSELVES.
+
+			IN A PURE MICROSERVICES ARCHITECTURE, EACH UNIT OF WORK CAN BE CALLED FROM ANY OTHER UNIT OF WORK WITHIN THE SYSTEM.
+
+				* A MICROSERVICE EXECUTION AND PROXY ENVIRONMENT CAN BE CREATED WITH OPEN-SOURCE SOFTWARE ON COMMODITY HARDWARE.
+
+			AGILITY, AND THE ABILITY TO DISTRIBUTE THESE SYSTEMS GLOBALLY ARE THE BIGGEST REASONS WHY THE LEVEL OF INTEREST CONTINUES.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
