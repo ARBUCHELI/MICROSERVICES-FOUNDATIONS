@@ -9,6 +9,42 @@ Today's users, expect the software that they use to always be available, as well
 ---------------
 . Architectural pattern.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* What you need to know
+-----------------------
+
+* What Managers Will Learn
+--------------------------
+. Basics of microservices architecture
+
+. Key benefits and challenges
+
+. Bottom-line impact
+
+
+
+* What Architects Will Learn
+----------------------------
+. Supplemental knowledge
+
+. How to ask the right questions
+
+. How to be aware and react to challenges
+
+
+
+* What Developers Will Learn
+----------------------------
+. Foundational Knowledge
+
+. The "why" behind this style
+
+. Ways to code for a global users
+
+			MOST MODERN LANGUAGES HAVE FRAMEWORKS AND PATTERNS FOR DELIVERING RESTFUL, GRPC, OR EVEN GRAPHQL SERVICES THAT CAN BE USED IN THIS ARCHITECTURE
+
+
 
 
 
