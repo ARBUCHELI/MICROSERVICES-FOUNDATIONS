@@ -1,0 +1,16 @@
+# INTRODUCTION
+--------------
+
+* Welcome
+---------
+Today's users, expect the software that they use to always be available, as well as reponsive, no matter where they are on the globe.
+
+* Microservices
+---------------
+. Architectural pattern.
+
+
+
+
+
+
