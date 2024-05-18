@@ -1,0 +1,37 @@
+# 1. WELCOME TO MICROSERVICES
+-----------------------------
+
+* History of service-based architectures
+----------------------------------------
+
+Before with monolithic applications we made decomposition of concern using functional components.
+
+			ANTIPATTERN:
+			------------
+			TIGHT COUPLING OF COMPONENTS IN MONOLITHS MAKE CHANGES HARD.
+
+
+			CONSIDERABLE TIME TO DEVELOP, TEST, AND DEPLOY.
+
+
+* SERVICE-ORIENTED ARCHITECTURE (SOA)
+-------------------------------------
+Decomposes applications into smaller modules.
+
+
+* Issues with SOA
+-----------------
+1. The web service technology was based on SOAP (Simple Object Access Protocol)
+
+	. Ignores HTTP response codes except "OK" and "Internal Server Error"
+
+
+2. Thin aggregation layer
+
+			AN AGILE FRAMEWORK CAN BE EXTENDED INTO A CLOUD NATIVE WORLD MUCH EASIER THAN EITHER MONOLITHIC APPLICATIONS OR SOA BASED ARCHITECTURES
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
