@@ -88,6 +88,32 @@ A change made in a highly coupled component.  Even if the code passes all the un
 * Service-oriented architecture
 -------------------------------
 
+* SOAP
+------
+Communication mechanism between systems.
+
+* Strong Contract
+-----------------
+The best part of SOAP - WDSL
+
+
+* Early Promises of SOA
+-----------------------
+. Contracts communicating over a common protocol
+
+. Build and deploy services and consume systems through the contract
+
+			MANY OF THE DEPLOYMENT ISSUES WITH MONOLITHS WERE SOLVED WITH SOA, AND WE COULD SIMPLY DO WORK
+
+			ONCE A SERVICE WAS BUILT AND DEPLOYED, THEN WE WOULD WIRE ALL THE COMMUNICATIONS THROUGH STANDARD BUSINESS PROCESSING KNOWN AS BPOS
+
+			AS BPOS BECAME BIGGER SO DID THE COUPLING OF THE SYSTEMS
+
+			THE COMPLEXITY BECAME SO BIG THAT IT WAS EASIER TO CONTROL A MONOLITH
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
