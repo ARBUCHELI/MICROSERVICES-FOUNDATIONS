@@ -142,6 +142,86 @@ Breaking a system into smaller units that make it easier to solve a series of sy
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Microservices: Solver of problems but not the silver bullet
+-------------------------------------------------------------
+
+* Complexity
+------------
+. One of the biggest costs you will pay, especially early in the process is complexity.
+
+	. If your processes and procedures require a lot of gates in the software lifecycle, microservices architectures will dramatically cost you time and money, as you move from a 
+	few deployed artifacts to many.
+
+* Distribuition tax
+-------------------
+. Another cost is what is called distribuition tax.
+
+	. As you build a microservices architecture out, there is a dramatic increase in network communications between the individual services.  This increases the total latency of 
+	calls across the network as a whole.
+
+	. In addition to individual calls taking more time from the client perspective, the increase in call volume tends to risk congestion, causing catastrophic latency across the
+	network as a whole.
+
+	
+* Reduction of reliability
+--------------------------
+. Putting more moving parts into a system, highly decreases reliability.
+
+			* IF ONE MICROSERVICE IS SICK, THE IMPACT CAN OFTEN AND DOES EXTEND TO MULTPLE CLIENT CALLS.
+
+			* IT BECOMES CRITICAL TO EVALUATE YOUR MOST CORE SERVICES AND DETERMINE IF THEY CAN WITHSTAND SYSTEM UNRELIABILITY.
+
+			* IF YOUR SYSTEM CANNOT WORK IN A PARTIAL STATE OF AVAILABILITY, YOU MAY NEED TO RETHINK USING MICROSERVICES.
+													 -------
+
+			* REMEMBER THAT THE IDEA IS TO MAXIMIZE BENEFIT WHILE REDUCING RISKS AND COMPLICATIONS.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Microservices and cloud native
+--------------------------------
+Often, when we talk about microservices, we are talking about cloud native, but that isn't always the case.
+
+Cloud native architectures are based loosely on building applications according to the 12 factor or 15 factor methodologies.
+
+
+* Cloud-Native Architecture
+---------------------------
+Includes patterns for designing systems to run in a cloud-based infrastructure.
+
+	. AWS
+	. Azure
+
+
+* Cloud Infrastructure
+----------------------
+. Public
+
+. Private
+
+. Hybrid
+
+
+
+* Cloud-Native Microservice-Based App
+-------------------------------------
+. Single code base
+
+. Completely self-contained
+
+. Zero file system usage
+
+
+
+
+
+
+
+
+	
+
+
+
 
 
 
