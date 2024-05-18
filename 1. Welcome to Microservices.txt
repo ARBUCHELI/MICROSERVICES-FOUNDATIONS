@@ -4,15 +4,22 @@
 * History of service-based architectures
 ----------------------------------------
 
+Before, End-Tier applications and Monolithic applications were the norm.
+
+A single binary web artefact was built and then decompose the application internally into layers.  Then each layer was also decomposed.
+
 Before with monolithic applications we made decomposition of concern using functional components.
 
 			ANTIPATTERN:
 			------------
-			TIGHT COUPLING OF COMPONENTS IN MONOLITHS MAKE CHANGES HARD.
+			TIGHT COUPLING OF COMPONENTS IN MONOLITHS MAKE CHANGES HARD.  THE OLDER THE APPLICATION WAS, THE MORE COUPLING WERE DEVELOPED.
 
 
 			CONSIDERABLE TIME TO DEVELOP, TEST, AND DEPLOY.
 
+			CODE ISSUES COULD ONLY BE FIXED IN LONG CYCLES, FROM BUG FIX TO DEPLOY.
+
+			
 
 * SERVICE-ORIENTED ARCHITECTURE (SOA)
 -------------------------------------
@@ -21,16 +28,143 @@ Decomposes applications into smaller modules.
 
 * Issues with SOA
 -----------------
-1. The web service technology was based on SOAP (Simple Object Access Protocol)
+1. The web service technology was based on SOAP (Simple Object Access Protocol).  SOAP makes a lot of compromises that are contrary to how HTTP works.
+
+	. HTTP was designed with response codes.
 
 	. Ignores HTTP response codes except "OK" and "Internal Server Error"
 
 
-2. Thin aggregation layer
+2. Thin aggregation layer.  This layer can add complexity (for example logic operations start getting added to the bus, adding a new level of coupling between internal and external
+elements of the system.
 
-			AN AGILE FRAMEWORK CAN BE EXTENDED INTO A CLOUD NATIVE WORLD MUCH EASIER THAN EITHER MONOLITHIC APPLICATIONS OR SOA BASED ARCHITECTURES
+			MICROSERVICES IS AN AGILE FRAMEWORK CAN BE EXTENDED INTO A CLOUD NATIVE WORLD MUCH EASIER THAN EITHER MONOLITHIC APPLICATIONS OR SOA BASED ARCHITECTURES
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* The monolithic application
+----------------------------
+THE MONOLITIC COMES USUALLY IN TWO FLAVORS:
+
+THE FIRST IS LARGE SINGLE FILE DEPLOYMENTS.
+
+* Single Deployment
+-------------------
+. Internal data access components
+
+. Business processes
+
+. Web applications
+
+. Web services
+
+. More remote procedures
+
+* Internal issues
+-----------------
+1) All packaged into a one large artifact and deployment.
+
+2) Code use.
+	Reusing code that is highly coupled with other components will lead to a lot of issues.
+
+* Delivering
+------------
+A change made in a highly coupled component.  Even if the code passes all the unit tests 
+
+	. In every release the entire deployment will have to be tested
+
+	. Developers tend to package long releases together.
+
+	. This impacts Agile.
+
+			AGILITY AND MAINTAINABILITY SUFFER DRAMATICALLY IN A MONOLITHIC WORLD
+
+
+			MONOLITHIC DEPLOYMENTS ARE VERY EXPENSIVE IN TERMS OF COSTS AND INFRASTRUCTURE
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
