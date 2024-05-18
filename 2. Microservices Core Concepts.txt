@@ -1,0 +1,47 @@
+# 2. MICROSERVICES CORE CONCEPTS
+--------------------------------
+
+* The Services
+--------------
+Is not about the size of the service.  Is about the operation of the service.
+
+. The communication is always through HTTP ---> This is a powerful proposition especially for large organizations.
+
+. REST
+
+. GRP, GRAPHQL --> Sometimes.
+
+. Each team in an organization can build software if they see fit, if the services are exposed via HTTP.
+
+. Documentation in this case shouldn't be ignored.
+
+. MICROSERVICE: Handles one set of related functions with little or no cross-domain operations.
+
+			* DOMAIN-DRIVEN DESIGN
+
+			* ANALOGY OF GOOD OBJECT-ORIENTED PROGRAMMING PRACTICES
+			-------------------------------------------------------
+				In a well-defined OOP space, a class is built to handle over one type of thing and provide all operations for that type.
+
+				In a microservices architecture, a service operates in a well-defined domain.
+
+			* OPERATIONS ARE DEFINED ON THE DOMAIN AS A WHOLE.
+
+			* A DOMAIN SHOULD BE DOMAIN OPERATIONS FOCUSED.
+
+			
+* Microservice Design Antipatterns
+----------------------------------
+. Too fine grained. ---> THIS IS MORE COMMON.  QUICKLY THE DISTRIBUITION TASK WILL HIT YOU HARD AS THE LATENCY OF CALLS REALLY KICKS IN.
+
+. Not fine grained enough.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+			
+
+
+
