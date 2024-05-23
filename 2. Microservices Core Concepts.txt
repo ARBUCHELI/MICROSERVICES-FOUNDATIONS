@@ -39,7 +39,48 @@ Is not about the size of the service.  Is about the operation of the service.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* The communication dance
+-------------------------
+In a microservices architecture, the interservice communication can be a source of freedom for growth, but it can also be a source of great pain.
 
+			* ALL COMMUNICATIONS BETWEEN SERVICES IN A MICROSERVICES ARCHITECTURE IS OVER HTTP USING REST-BASED SERVICES.
+
+			* ALLOWS THE USE OF ANY CODING LANGUAGE OR FRAMEWORK THAT SUPPORTS RESTFUL SERVICES.
+
+			* PROTOCOL-AWARE HETEROGENEOUS INTEROPERABILITY
+			-----------------------------------------------
+			Services are bound to a protocol and execute communication over that protocol in a way that works in a mixed or heterogeneus way.
+
+			* THE BEAUTY OF A MICROSERVICES ARCHITECTURE IS THAT EACH TEAM MEMBER CAN BUILD THE SERVICES IN A LANGUAGE NATIVE TO THEM, AND THEN EXPOSE THE SERVICE FOR OTHERS
+			TO CONSUME, USING HTTP.
+
+			* THIS EMPHASIZES AGILITY.
+
+			* EVERY MODERN FRAMEWORK CAN LEVERAGE REST.  THIS WAS NOT THE CASE WHEN WORKING WITH SOAP (WITH JAVA).
+
+			* AS THE TEAMS WORK IN THEIR OWN DOMAIN AS EFFICIENTLY AS POSSIBLE, THEY DELIVER CODE QUICKER.
+
+			* PROBLEMS CAN ARISE FROM ALL THESE NETWORK CALLS, AS EACH SERVICE CAN CALL ANY OTHER SERVICE.
+
+			* IN THIS MODEL OF MICROSERVICES, EACH SERVICE OF CALLING ANY OTHER SERVICE IN THE SYSTEM. --> THIS MEANS ORCHESTRATION IS KEY.
+
+			* EACH SERVICE MUST MAINTAIN A CERTAIN LEVEL OF PASSIVITY IN THEIR APIS, OR THERE IS A RISK OF SYSTEM FAILURE.
+
+			* YOU MUST EITHER HAVE A SOLID VERSIONING STRATEGY OR MAINTAIN PERFECTLY PASSIVE APIS TO PREVENT CALLING SYSTEMS FROM FAILING WHEN YOU RELEASE A NEW VERSION OF YOUR
+			API.
+
+			* A SOLID VERSIONING STRATEGY, CONTRACT TESTING AND STRONG PASSIVITIY RULES TO PREVENT THIS FROM BECOMING A MAJOR CONCERN IN THE SYSTEM.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+			
+
+
+
+			
 
 			
 
