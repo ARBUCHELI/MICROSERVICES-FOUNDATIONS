@@ -118,6 +118,29 @@ Build for the average day and scale as needed.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* The dangers of latency and gridlock
+-------------------------------------
+Every service invocation is a remote network call.
+
+There is latency in every single call.
+
+As the traffic increases, the risk of latency increases.
+
+Latency in a low-level service or any service can become exponentially exaggerated in a model where every call is remote.
+
+It could be a catastrophic failure of the entire service.
+
+Other path to gridlock is circular call.
+
+			YOU NEED TO SPEND A SIGNIFICAN AMOUNT OF TIME EVALUATING HOW TO CONTROL THE NEGATIVE REACTIONS TO LATENCY.
+
+			ONE SUCH PATTERN IS TO USE A CIRCUIT BREAKER.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 
 
 		
