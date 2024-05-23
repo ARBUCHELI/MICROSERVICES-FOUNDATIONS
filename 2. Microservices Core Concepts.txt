@@ -74,6 +74,88 @@ In a microservices architecture, the interservice communication can be a source 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Distribution and scale
+------------------------
+Possibility of global distribution.
+
+The microservices architecture model provides for a highly-scalable system.
+
+			* EACH SERVICE IS ACCESSED OVER REMOTE NETWORK CALLS
+			----------------------------------------------------
+			. Regardless of being in a local or remote data center. --> You can theoretically move your services anywhere.
+
+			. This is very expensive but solves the problem of getting infrastructure and services globally available when needed, when making the entire system globally 
+			available.
+
+
+* Enterprise and Internet Needs
+-------------------------------
+. Customer-facing applications.
+
+. BUsiness-facing applications.
+
+. All for day 2 growth from day 1.
+
+
+			* THE ABILITY TO SCALE IS PART OF THIS ARCHITECTURAL STYLE
+
+			* IN A MICROSERVICES ARCHITECTURE, EACH SERVICE IS INDEPENDANT OF EVERY OTHER SERVICE OR APPLICATION IN THE SYSTEM.
+
+			* WHEN AN INDIVIDUL SERVICE COMES UNDER LOAD, IT CAN BE INDIVIDUALLY SCALED.
+
+
+* Traditional Strategy of Monoliths
+-----------------------------------
+Scale for the busiest day, every day.
+
+Traditionally you build your systems planning for the busiest day, every day.
+
+
+* Microservice Strategy
+-----------------------
+Build for the average day and scale as needed.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 			
