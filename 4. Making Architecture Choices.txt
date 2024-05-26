@@ -118,10 +118,30 @@ MONITOR A MICROSERVICES SYSTEM TO ENSURE LAG DOESN'T HAVE MAJOR IMPACTS.
 			
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Monolithic microservices
+--------------------------
+			* MANY TIMES, ESPECIALLY IN EARLY-STAGE STARTUPS, THE CONCEPT OF MICROSERVICES IS JUST TOO MUCH FOR A SMALL TEAM TO DEAL WITH.
+
+			* THERE ARE HOWEVER, VERY SPECIFIC STEPS YOU CAN TAKE TO PREPARE A MONOLITH EARLY FOR AN EVENTUAL BREAKUP AS NEEDED.
 
 
+* Prepare Early to Break Up a Monolith
+--------------------------------------
+. Start at lowes point and build out data to be broken up.
 
-	
+. Expose domains with solid APIs.
+
+. Encapsulate as many potential services as possible.
+
+			* THE KEY IS KEEPING A SCALABLE AND DISTRIBUTABLE SYSTEM IN MIND AT EVERY STEP OF THE WAY.
+
+
+* Real-World Use Cases
+----------------------
+. Small team.
+
+. Small application.
+
 
 
 
