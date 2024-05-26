@@ -52,3 +52,70 @@ One of the hardest operational problems to solve in a microservices architecture
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Continuous delivery as a requirement
+--------------------------------------
+One of the goals of microservices is agility.
+
+			* WRITING CODE IS ONLY ONE ASPECT OF THE SOFTWARE DEVELOPMENT LIFECYCLE.
+
+			* INVEST TIME IN BUILDING OUT A CONTINUOUS DELIVERY MODEL EARLY.
+
+			* CHANCES OF SUCCESS DIMINISH WITHOUT AUTOMATED BUILDING AND DEPLOYING OF SERVICES.
+
+			
+* CI/CD PIPELINES
+-----------------
+A CI/CD pipeline starts with the most basic aspects of building your committed code base in an automated fashion.
+
+Building your code can be as simple as executing a script that manages the build cycle itself or as complex as a large distributed model of containerization and sandbox build operations.
+
+The build step compiles and often executes unit tests to ensure that the code is ready for further testing and deployment.
+
+Once the build step has completed, we often add a step of automated deployment to a non-production environment.
+
+This automated deployment step moves the compiled artifact to a runtime that often mimics production but does not take production traffic.
+
+In this environment we often run integration and system tests as well as security-focused penetration tests.
+
+These tests should provide a clear indication of the safety of moving the code to production.
+
+When the code has been sufficiently validated, it will be deployed to production.
+
+			THE GOAL OF MICROSERVICES IS AGILITY
+
+			
+* Make Agility a Priority
+-------------------------
+. Start small
+
+. Consider intergration of testing frameworks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
