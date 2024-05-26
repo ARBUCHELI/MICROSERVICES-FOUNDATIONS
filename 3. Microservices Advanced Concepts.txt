@@ -1,0 +1,25 @@
+# MICROSERVICES ADVANCED CONCEPTS
+---------------------------------
+
+* Asynchronous communications
+-----------------------------
+			ASYNCHRONOUS COMMUNICATIONS ARE NOT EASY.
+
+
+Most often when you hear mentions of asynchronous communications in a microservices architecture, people are specifically referring to event-driven microservices as a way to support 
+eventual consistency of the data.
+
+In this model, the services put a message into a asynchronous message broker or a temporary data store and then drive events from this state change.
+
+The downstream event processors will process the data and eventually cause the data to be stored in its final data store.
+
+
+			STREAM DATA PLATFORMS ARE A VERY STRONG PATTERN WHEN BUILDING OUT A LARGE SYSTEM ESPECIALLY WITH MANY DIFFERENT BUT INTERESTING OPERATIONS.
+
+			ONE OF THE MOST OVERLOOKED PATTERN IN THIS SPACE IS THE TRANSITION FROM PURE SYNCHRONOUS OPERATIONS TO A SYNCHRONOUS PROCESSING.
+
+			WHEH MOVING TO SYNCHRONOUS OPERATIONS, YOU NEED TO TAKE CARE TO HANDLE ERROR STATES CORRECTLY.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
