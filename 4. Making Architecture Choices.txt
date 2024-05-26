@@ -44,4 +44,79 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* The tradeoffs
+---------------
+
+CONS					PROS
+----					----
+. Distribution tax cost			. Well-defined module boundaries
+
+					. Easy path to scale your system
+
+
+
+
+
+
+
+			* THE ABILITY TO SCALE INCREASES THE COMPLEXITY OF DEPLOYOMENTS.
+
+			* DESPITE ADDED COMPLEXITY THERE ARE BENEFITS ASSOCIATED WITH SCALE AND WASTE REDUCTION.
+
+			* EMBRANCING POLYGLOT DEVELOPMENT MAKES MANAGEMENT MORE DIFFICULT.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
