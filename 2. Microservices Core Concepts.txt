@@ -236,6 +236,37 @@ THIS PROCESS DOESN'T ONLY IMPROVE THE PERFORMANCE OF THE SYSTEM AS A WHOLE, BUT 
 
 * No ACID, only BASE
 --------------------
+DISTRIBUITED TRANSACTIONS ARE EXTREMELLY PAINFUL TO GET RIGHT, BUT ALSO EXTREMELY HARD TO MANAGE.
+
+* ACID
+------
+. ATOMIC (Either succeeds completely or fails completely).
+. CONSISTENT (Constrains of underlying datastore are enforced).
+. ISOLATED (Data can't be read by other transactions until a specific state, based on isolation rules, is reached).
+. DURABLE (Once saved, it's guaranteed to be in the datastore until modified).
+
+FOR TRADITIONAL RELATIONAL DATABASE
+
+			* IN A MICROSERVICES WE STRIVE FOR BASE (BASICALLY AVAILABLE) insted of ACID.
+
+			* WE EVENTUALLY ACHIEVE THE END STATE IN ALL OF THE NODES ACROSS OUR DISTRIBUTED DATASTORE.
+
+			* ACID IS EASIER AS YOU'RE GUARANTEED OF ITS STATE.
+
+				. You know that you when you read or write data that you are guaranteed of its state by the underlying data store.
+
+				. This guarantee allows you complete control of how to handle high throughput systems where data changes occur often, and must be inmediate available.
+
+			* IN A MICROSERVICES ARCHITECTURE, YOU NEED TO IDENTIFY WHEN YOU TRULY NEED ACID TRANSACTIONS AND WRAP SERVICE BOUNDARIES AROUND THOSE OPERATIONS.
+
+			* EVALUATE IF YOU REALLY NEED ACID TRANSACTIONS.
+
+			* THERE ARE CASES WHEN YOU REALLY NEED ACID TRANSACTIONS (FOR EXAMPLE BANKS).
+
+			* OTHER APPS CAN BE ASYNCHRONOUS.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 						
 			
