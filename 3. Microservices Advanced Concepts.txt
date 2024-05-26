@@ -22,4 +22,33 @@ The downstream event processors will process the data and eventually cause the d
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Logging and tracing in a microservices architecture
+-----------------------------------------------------
+One of the hardest operational problems to solve in a microservices architecture is evaluating call chains and aggregating logging associated to those call chains.
+
+			PLAN FOR UNIFIED LOGGING STRATEGIES ACROSS YOUR ENTIRE PLATFORM.
+
+
+* Benefits of Unified Logging
+----------------------------- 
+. Evaluation of day-to-day operations.
+
+. Troubleshooting.
+
+. Maintenance.
+
+			LOGGING CAN BECOME DIFFICULT IN A MICROSERVICES ENVIRONMENT.
+
+
+			MOVING TO A DISTRIBUTED SYSTEM INCREASES THE NEED FOR CONVERGENCE IN YOUR LOGGING BEHAVIORS.
+
+			PART OF MAKING LOGGING MORE POWERFUL IN A DISTRIBUTED ENVIRONMENT IS THE ABILITY TO DETERMINE THE ACTUAL FLOW, NOT ONLY THROUGH YOUR SERVICE BUT THROUGH THE 
+			SYSTEM AS A WHOLE.
+
+			* TRACING: Is the solution to this problem.  
+				. Creating a trace (token): Use that trace in all internal logging events for that call stack.
+
+			THE TRACE ID EXISTS IN ALL OF THE LOG MESSAGES, FOR ALL SERVICES THROUGHOUT THE SYSTEM FOR A GIVEN CALL STACK.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
