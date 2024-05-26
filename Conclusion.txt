@@ -1,0 +1,28 @@
+# CONCLUSION
+------------
+
+* Next steps
+------------
+
+* What We Covered
+-----------------
+. History of microservices
+
+. Architecture benefits and risks
+
+. Cloud native
+
+. Services and communication patterns
+
+. Eventual consistency and API layer
+
+. Asynchronous framework
+
+. CI/CD
+
+. Hybrid architectures
+
+. Architecture culture choices
+
+			* LISTEN AND LEARN FROM THE INDUSTRY.
+
