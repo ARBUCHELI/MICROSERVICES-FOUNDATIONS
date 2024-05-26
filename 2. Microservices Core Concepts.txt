@@ -267,6 +267,59 @@ FOR TRADITIONAL RELATIONAL DATABASE
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* The API Layer
+---------------
+Aggregated proxy of all of your service offerings.
+
+Used to shield the outside world from knowing the structure, organization, or even what exact service is exposing a specific operation.
+
+provides a standarized proxy interface that will expose whatever service endpoints, and API operations, we can figure it to expose.
+
+			* THE API LAYER ISOLATES THE CLIENT FROM NEEDING TO KNOW THE DIRECT IP ADDRESS AND PORT OF THE SERVICE IS CALLING.
+
+			* FROM THE API LAYER, WE ARE CALLING HUNDREDS OF DIFFERENTN ENDPOINTS, WITHOUT REALLY KNOWING WHICH SERVICE PRODUCES THE ENDPOINT ITSELF.
+
+			* AVOID MAKING BREAKING CHANGES AT ALL COSTS.
+
+			* YOUR API LAYER CAN DIRECT TO A LEGACY VERSION OF A SERVICE WITHOUT FORCING A CLIENT TO MAKE CHANGES.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 						
 			
