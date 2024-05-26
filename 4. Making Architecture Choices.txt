@@ -68,6 +68,47 @@ CONS					PROS
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* An argument for edge services
+-------------------------------
+			* API layer should only be used as a proxy layer.
+
+			
+* Edge services
+---------------
+
+. Outbound
+----------
+Used to expose your client-specific needs to the outside world.
+
+You can use an API gateway.
+
+
+
+. Inbound or Translation
+------------------------
+Designed to abstract you from third-party dependencies.
+	
+You minimize the impact of changes.
+
+
+
+. Key Benefits of Edge Services
+-------------------------------
+. Easier transformation management.
+
+. Provide clients a consistent interface.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+	
+
 
 
 
