@@ -193,7 +193,51 @@ THIS PROCESS DOESN'T ONLY IMPROVE THE PERFORMANCE OF THE SYSTEM AS A WHOLE, BUT 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Data domains as a service boundary
+------------------------------------
 
+* Transactional Boundaries
+--------------------------
+. Difficult to fully eliminate.
+
+. Not distributed transactions.
+
+. New ways of thinking needed.
+
+			BUILDING DATA DOMAINS FOR LOW LEVEL SERVICES IS ONE OF THE HARDEST PARTS OF A MICROSERVICES ARCHITECTURE FOR VARIOUS REASONS, BECAUSE IS INVOLVES DECOMPOSING A
+			MONOLITHIC DATABASE INTO SMALLER INDIVIDUAL SYSTEMS.
+
+			THERE ARE TWO WAYS OF TACKLING THIS PROBLEM:
+
+				START WITH THE DATABASE
+				-----------------------
+				. Start with the database itself, and break it up into smaller databases, and then build the associated services.  If you make a mistake, it will put you
+				in trouble.
+
+				. This depends in what you know and how well you know it.
+
+				. Migrating data is harder in a live system, than building services, specially if you are levering an API on the top of those services.
+
+
+				START WITH THE SERVICES
+				-----------------------
+				. By starting with the services and having them all connected to the monolithic database, you start to see if your domains are well-defined.  You can see
+				the traffic flows across the network, and leverage that knowledge to start modeling the data.
+
+				. The overall objective is to start minimizing the cross domain calls where possible.
+
+
+
+			BUILDING STRONG DATA DOMAINS IS CRITICAL TO A SOLID MICROSERVICES ARCHITECTURE.
+		
+			A GOOD TELEMETRY AND TRACING PATTERN IS CRITICAL TO DO THIS WORK.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+						
+			
+			
 
 
 
