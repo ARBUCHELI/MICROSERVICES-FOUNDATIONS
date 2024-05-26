@@ -90,7 +90,51 @@ When the code has been sufficiently validated, it will be deployed to production
 
 . Consider intergration of testing frameworks
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Hybrid architectures: Hierarchy and service-based
+---------------------------------------------------
+
+			REMEMBER THAT THERE ARE A LOT OF COMPLEX PROBLEMS TO SOLVE, LIKE DATABASE SEGMENTATION AND SERVICE BOUNDARIES.
+
+			IN THE UNTANGIBLE EYE OF THE CUSTOMERS ALL THESE TASK MAY NO HAVE TANGIBLE VALUE.
+
+			UTILIZE A HIERARCHICAL SERVICE MODEL TO IMPLEMENT A PARTIAL MICROSERVICES ARCHITECTURE. (MANY LEADERS ARE AGAINST THIS).
+
+			HIERARCHICAL MICROSERVICES ARCHITECTURE
+			---------------------------------------
+			Prevents circual dependency by defining which service types can or can't consume other service types.
+
+			N-TIER MODEL
+			------------
+			You define a few different classes of services.
+			
+				. One common class is the data services that expose data domain specific logic completely to the outside world.
+
+				. Another common class is the business processes service, that specify high level business processes that are well-defined.
+
+				. Gateway services that build abstractions to external dependencies.
+
+				. Edge services: expose your data and business process to the ouside world.
+
+			Once you have a clear taxonomy built about what task each of these services do, you can then start to build out rules about which class of service can be
+			consumed by other service classes.
+
+			* BEWARE OF A CIRCULAR CALL TREE.
+
+			* BE SURE NO DATA SERVICE CAN CONSUME ANOTHER DATA SERVICE WITHOUT BEING INVOLVED IN A BUSINESS PROCESS.
+
+* Service-Based Architecture
+----------------------------
+. Single underlying database
+
+. Gain agility without sharding data
+
+			BE CAREFUL WITH CREATING A MONOLITH OF MONOLITHS.
+
+
+
+			
 
 
 
