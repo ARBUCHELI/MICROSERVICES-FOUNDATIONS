@@ -102,7 +102,21 @@ You minimize the impact of changes.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Embracing DevOps
+------------------
+			* NEVER UNDERESTIMATE CULTURE.
 
+			* MOST OF THE ISSUES FROM MICROSERVICES CAN BE SEEN AS OPERATIONAL ISSUES.
+
+			
+MONITOR A MICROSERVICES SYSTEM TO ENSURE LAG DOESN'T HAVE MAJOR IMPACTS.
+
+			* AUTOMATION OF DEPLOYMENTS AND TESTING IMPROVES THE AGILITY OF THE TEAM AND INCREASES THROUGHPUT.
+
+			* AUTOMATE IS MANDATORY.
+
+			
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
