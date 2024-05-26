@@ -1,0 +1,47 @@
+# 4. MAKING ARCHITECTURE CHOICES
+--------------------------------
+
+* Design considerations
+-----------------------
+
+* Microservice Design Key Considerations
+----------------------------------------
+1 Continuous integration and delivery pipelines
+
+	(DONT WRITE ANY CODE UNTIL YOU HAVE A PLAN ON HOW YOU WILL HANDLE THESE TASKS)
+
+	THIS SHOULD BE THE TASK NUMBER ONE.
+
+	MODEL A SAMPLE PIPELINE AND ENSURE YOU HAVE THE MOST CRITICAL STEPS OF YOUR SDLS DOCUMENTED AND AUTOMATED, IF POSSIBLE.
+
+
+
+2. Logging, telemetry, and tracing frameworks.
+
+	CONSIDER USING LOG AGGREGATORS AND LOG SEARCH MECHANISMS.
+
+
+
+3. Domain-dirven design.
+
+
+
+4. Latency evaluation and control.
+
+
+		* STANDARIZATION WILL ALLOW YOU TO SHIFT RESOURCES MORE EASILY AS NEEDS CHANGE.
+
+
+
+5. Asynchronous design to start.
+	
+	TRY TO CREATE EVERY SERVICE AS A ASYNCHRONOUS OPERATION UNTIL YOU PROVE THAT YOU NEED IN SYNCRONOUSLY.
+
+	HAVING A SOLID PLAN FOR ASYNCHRONOUS WILL REDUCE LATENCY AS A WHOLE BUT WILL ALLOW YOU TO IMPROVE YOUR SKILLS ON THESE OPERATIONS.
+
+		* DESIGNING A MICROSERVICES ARCHITECTURE IS LESS ABOUT THE CODE, AND MORE ABOUT THE SUPPORTING PROCESSES, OPERATIONS, AND INFRASTRUCTURE.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
