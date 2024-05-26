@@ -138,6 +138,69 @@ Other path to gridlock is circular call.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Bounded context
+-----------------
+When deciding the size of the microservices, one common practice is leveraging DOMAIN DRIVEN DESIGN.
+
+Another common practice is to focus on the bounded context when decomposing a large multi-domain system into individual services.
+
+
+* The Core Concept
+------------------
+. Investigate the working system.
+
+. Determine the domains.
+
+. Break services up accordingly.
+
+
+			* MOST OF THE EARLY MISTAKES IN MIGRATING AN EXISTING MONOLITH INTO A MICROSERVICES ARCHITECTURE COMES FROM EITHER MAKING YOUR SERVICES TOO GRANULAR OR NOT 
+			GRANULAR ENOUGH.
+
+			* FIND THE GRANULATIRY SWEET SPOT BY LEVERAGING DOMAIN-DRIVEN DESIGN.
+
+			* ANALYZE THE TRAFFIC PATTERNS IN YOUR CODE AND DEVELOP REAL-WORLD USE CASES.
+
+			* PART OF THE GOAL IN BUILDING ON YOUR BOUNDED CONTEXT IS TO REDUCE YOUR CROSSED DOMAIN CALLS WHEN APPROPIATE.
+
+			* EXAMPLE
+			---------
+			You have a customer domain that is fairly well-defined, but you also have a user domain for your login information. As you look at traffic patterns, you note
+			that every time your user domain is called, it calls your customer domain.
+
+			This is a good argument to put both of these domains into a single-bounded context, but its necessary to think a little deeper:
+
+				. What if only 1% of othe calls to the customer domain, come from the user domain.
+				. There is data in your user domain that needs to be secured in a different manner.
+
+			These may be sufficient arguments to separate them into different bounded contexts.
+
+			* BOUNDED CONTEXT MATTERS A LOT BECAUSE OF LATENCY.  
+
+			* LATENCY IS ONE OF THE BIGGEST PAIN POINTS IN MICROSERVICES.
+
+			* THERE'S FRANKLY NO NEED TO MAKE EXTRA CALLS WHEN THEY MAKE ZERO SENSE.
+
+			* BY EVALUATING THE DOMAINS, AND BUILDING STRONG BOUNDED CONTEXT, YOU CAN REDUCE THE NUMBER OF CALLS MADE IN YOUR SYSTEM AS A WHOLE.
+
+			
+STRONG CONTRACST AND WELL-DEFINED BOUNDARIES ALLOW FOR SELF-DISCOVERY.
+
+BECAUSE YOU HAVE TAKEN THE TIME TO BUILD OUT THESE DOMAINS AND STRUCTURE THEM PRECISELY, A CONSUMER OF A SERVICE ON YOUR SYSTEM, SHOULD BE ABLE TO DETERMINE THE CORRECT LOCATION TO SEARCH
+FOR THE SERVICES THAT THEY NEED TO CONSUME.
+
+THIS PROCESS DOESN'T ONLY IMPROVE THE PERFORMANCE OF THE SYSTEM AS A WHOLE, BUT ALSO IMPROVES AGILITLY.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+			
+
+
+
 
 
 
